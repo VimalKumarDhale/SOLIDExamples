@@ -1,7 +1,8 @@
-npm install --save-dev typescript jasmine @types/jasmine ts-node
+#Introduction
+The repo contain the examples of the SOLID principles.
 
-Build App 'node fileName.ts' -> compile the .ts file into .js file then run the following command to run the file, Run App 'tsc fileName.js
+#Build 
+npm run build
 
-The unit test set is not ready yet
-
-Webpack set has issues.
+#Run the Application
+node dist/bundle.js
