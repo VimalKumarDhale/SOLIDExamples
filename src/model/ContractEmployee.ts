@@ -1,3 +1,4 @@
+import { IEmployee } from "./EmployeeContracts";
 export class ContractEmployee implements IEmployee {
   name: string;
   salary: number;

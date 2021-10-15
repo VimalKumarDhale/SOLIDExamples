@@ -11,6 +11,6 @@ export class TemporaryEmployee extends Employee {
     return this.salary;
   }
   getBonus(): number {
-    return this.salary;
+    return this.salary + (this.salary * 5);
   }
 }

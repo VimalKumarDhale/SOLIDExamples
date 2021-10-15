@@ -1,10 +1,11 @@
 import { ContractEmployee } from "./model/ContractEmployee";
 import { Employee } from "./model/Employee";
+import { IEmployee } from "./model/EmployeeContracts";
 import { PermanentEmployee } from "./model/PermanentEmployee";
 import { TemporaryEmployee } from "./model/TemporaryEmployee";
 
 class EmployeeDetail {
-  permanentEmployee: Employee = new PermanentEmployee("Will", 40000);
+  permanentEmployee: Employee = new PermanentEmployee("Wily", 40000);
   temporaryEmployee: Employee = new TemporaryEmployee("John", 40000);
   //As per the third SOLID principle, Liskove Substitution, the type of the base type should be replaceable with the sub type.
   contractEmployee: IEmployee = new ContractEmployee("Anne", 40000);

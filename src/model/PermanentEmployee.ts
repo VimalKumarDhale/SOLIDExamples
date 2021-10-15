@@ -11,6 +11,6 @@ export class PermanentEmployee extends Employee {
     return this.salary;
   }
   getBonus(): number {
-    return this.salary;
+    return this.salary + (this.salary * 10);
   }
 }

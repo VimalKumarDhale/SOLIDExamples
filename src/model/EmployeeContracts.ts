@@ -1,9 +1,9 @@
-interface IEmployee{
+export interface IEmployee{
     name: string;
     salary:number;
     getMinimumSalary() : number;
 }
 
-interface IEmployeeBonus{
+export interface IEmployeeBonus{
     getBonus() : number;
 }
