@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx webpack --config=webpack.config.js",
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.ts"
   },
   "author": "Vimal Dhale",
   "license": "ISC",
@@ -13,7 +13,7 @@
     "@types/jasmine": "^3.9.1",
     "@types/typescript": "^2.0.0",
     "istanbul": "^0.4.5",
-    "jasmine": "^3.9.0",
+    "jasmine": "^3.10.0",
     "jasmine-core": "^2.5.2",
     "jasmine-spec-reporter": "^7.0.0",
     "jasmine-ts": "^0.4.0",
@@ -32,5 +32,8 @@
     "webpack": "^5.54.0",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
+  },
+  "dependencies": {
+    "karma-coverage-istanbul-reporter": "^3.0.3"
   }
 }

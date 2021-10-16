@@ -1,4 +1,4 @@
-module.exports = function (config) {
+module.exports = (config) => {
   config.set({
     frameworks: ["jasmine", "karma-typescript"],
     files: ["src/**/*.ts", "src/**/*spec.ts"],
